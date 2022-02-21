@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TutorialAndroidAmplify</string>
+    <!-- SIGN UP -->
+    <string name="username">enter username</string>
+    <string name="email">enter email</string>
+    <string name="password">enter password</string>
+    <string name="signupbtn">Sign Up</string>
 </resources>
