@@ -1,0 +1,2 @@
+rootProject.name = "TutorialAndroidAmplify"
+include ':app'

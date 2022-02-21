@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tutorialandroidampli-dev-200927-authRole",
+      "UnauthRoleArn": "arn:aws:iam::425237301354:role/amplify-tutorialandroidampli-dev-200927-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::425237301354:role/amplify-tutorialandroidampli-dev-200927-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tutorialandroidampli-dev-200927-deployment",
+      "UnauthRoleName": "amplify-tutorialandroidampli-dev-200927-unauthRole",
+      "StackName": "amplify-tutorialandroidampli-dev-200927",
+      "StackId": "arn:aws:cloudformation:us-east-1:425237301354:stack/amplify-tutorialandroidampli-dev-200927/cf4257d0-9349-11ec-a08d-12b35f4d8f93",
+      "AmplifyAppId": "d5r650weqiwmo"
+    },
+    "categories": {
+      "auth": {
+        "tutorialandroidampli9a70b8b2": {}
+      }
+    }
+  }
+}
