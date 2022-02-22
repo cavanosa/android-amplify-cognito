@@ -43,7 +43,7 @@ public class AmplifyCognito {
                 result ->
                 {
                     Log.i("AuthQuickstart", result.isSignInComplete() ? "Sign in succeeded" : "Sign in not complete");
-                    loadHome(username);
+                    loadHome();
                 },
                 error -> Log.e("AuthQuickstart", error.toString()));
     }
@@ -78,12 +78,13 @@ public class AmplifyCognito {
         context.startActivity(intent);
     }
 
-    private void loadHome(String username) {
+    private void loadHome() {
         Intent intent = new Intent(context, HomeActivity.class);
-        intent.putExtra("username", username);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }
 
-
+    public String getUsername() {
+        return Amplify.Auth.getCurrentUser().getUsername();
+    }
 }
