@@ -16,6 +16,8 @@ public class SignUpActivity extends AppCompatActivity {
     EditText etPassword;
     Button btnSignup;
 
+    Button btnSignin;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +34,13 @@ public class SignUpActivity extends AppCompatActivity {
                 String email = etEmail.getText().toString();
                 String password = etPassword.getText().toString();
                 amplifyCognito.signUp(email, username, password);
+            }
+        });
+        btnSignin = findViewById(R.id.btnSignin);
+        btnSignin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                amplifyCognito.loadLogin();
             }
         });
     }

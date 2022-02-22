@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TutorialAndroidAmplify">
-        <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".SignInActivity" />
         <activity android:name=".ConfirmActivity" />
         <activity android:name=".MainActivity" />
         <activity

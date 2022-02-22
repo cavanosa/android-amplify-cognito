@@ -4,22 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConfirmActivity">
-    <EditText
-        android:id="@+id/etCode"
+    tools:context=".HomeActivity">
+    <TextView
+        android:id="@+id/tvUsername"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="12dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/code"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
     <Button
-        android:id="@+id/btnVerify"
+        android:id="@+id/btnSignout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -28,10 +26,10 @@
         android:ems="10"
         android:textAllCaps="false"
         android:textSize="20dp"
-        android:drawableLeft="@drawable/ic_baseline_done_outline_24"
-        android:text="@string/verify"
+        android:drawableLeft="@drawable/ic_baseline_close_24"
+        android:text="@string/signoutbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etCode"/>
+        app:layout_constraintTop_toBottomOf="@id/tvUsername"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
